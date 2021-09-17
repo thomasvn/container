@@ -1,3 +1,4 @@
 .vagrant
 tmp
 notes.txt
+*.tar*

@@ -1,9 +1,14 @@
-## Walkthrough
+# Containers
+
+## Setup a VM
+
 ```bash
 # Create and enter the VM environment
 vagrant up
 vagrant ssh
 ```
+
+## Building a container from scratch
 
 ```bash
 # Once inside the VM, use the Makefile to manage the container!
@@ -19,6 +24,6 @@ cat /etc/passwd
 ifconfig
 ```
 
-
 ## References
-- https://jvns.ca/blog/2016/10/10/what-even-is-a-container/
+
+- <https://jvns.ca/blog/2016/10/10/what-even-is-a-container/>
